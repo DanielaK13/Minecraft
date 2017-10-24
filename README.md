@@ -1,3 +1,3 @@
-# Minecraft_Boneco
+# Minecraft
 
-Doll Minecraft using OpenGL in C.
+This is a doll from Minecraft using OpenGL in C.
