@@ -21,3 +21,5 @@ This is Steve from Minecraft using OpenGL in C.
 Other interaction commands are displayed in execution window.
 
 All comments are written in brazilian Portuguese.
+
+#### This was an assignment for Computer Graphics class by MSc Evandro Luís Viapiana from University of Passo Fundo.
