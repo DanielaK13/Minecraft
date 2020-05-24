@@ -5,7 +5,7 @@ This is Steve from Minecraft using OpenGL in C.
 ## Getting started
 
 - Download this project;
-- [Read this file with installation requeriments](requirements.txt);
+- [Read this file with installation requeriments](requeriments.txt);
 - [Execute the project file](project.cbp);
 
 ### Basic interaction commands
