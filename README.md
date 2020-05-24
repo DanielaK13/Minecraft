@@ -16,7 +16,7 @@ This is Steve from Minecraft using OpenGL in C.
 - X x => select X axis;
 - Y y => select Y axis;
 - Z z => select Z axis;
-- + - => transformation direction.
+- \+ \- => transformation direction.
 
 Other interaction commands are displayed in execution window.
 
