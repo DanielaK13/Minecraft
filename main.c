@@ -1,8 +1,8 @@
 /*
 ********************************************************
-            TRABALHO 1 DE COMPUTAÇÃO GRÁFICA
+            TRABALHO DE COMPUTAÇÃO GRÁFICA
 
-                        ROBÔ
+                  Steve Minecraft
 
             DANIELA KUINCHTNER, 152064
             CIÊNCIA DA COMPUTAÇÃO - UPF
@@ -166,59 +166,59 @@ void Texturizacao(){
 
    texture_id[ 0 ] = TEXTURA1; // define um numero (identificacao) para a textura
    glBindTexture ( GL_TEXTURE_2D, texture_id[0] );//armazena na posição 0 do vetor
-   LoadBMP ( "cabecafront.bmp" ); // lê a textura
+   LoadBMP ( "textures/cabecafront.bmp" ); // lê a textura
 
    texture_id[ 1 ] = TEXTURA2;
    glBindTexture ( GL_TEXTURE_2D, texture_id[1] );
-   LoadBMP ( "tronco.bmp" );
+   LoadBMP ( "textures/tronco.bmp" );
 
    texture_id[ 2 ] = TEXTURA3;
    glBindTexture ( GL_TEXTURE_2D, texture_id[2] );
-   LoadBMP ( "perna.bmp" );
+   LoadBMP ( "textures/perna.bmp" );
 
    texture_id[ 3 ] = TEXTURA4;
    glBindTexture ( GL_TEXTURE_2D, texture_id[3] );
-   LoadBMP ( "braco.bmp" );
+   LoadBMP ( "textures/braco.bmp" );
 
    texture_id[ 4 ] = TEXTURA5;
    glBindTexture ( GL_TEXTURE_2D, texture_id[4] );
-   LoadBMP ( "pe.bmp" );
+   LoadBMP ( "textures/pe.bmp" );
 
    texture_id[ 5 ] = TEXTURA6;
    glBindTexture ( GL_TEXTURE_2D, texture_id[5] );
-   LoadBMP ( "quadril.bmp" );
+   LoadBMP ( "textures/quadril.bmp" );
 
    texture_id[ 6 ] = TEXTURA7;
    glBindTexture ( GL_TEXTURE_2D, texture_id[6] );
-   LoadBMP ( "cabecatras.bmp" );
+   LoadBMP ( "textures/cabecatras.bmp" );
 
    texture_id[ 7 ] = TEXTURA8;
    glBindTexture ( GL_TEXTURE_2D, texture_id[7] );
-   LoadBMP ( "cabecaesq.bmp" );
+   LoadBMP ( "textures/cabecaesq.bmp" );
 
    texture_id[ 8 ] = TEXTURA9;
    glBindTexture ( GL_TEXTURE_2D, texture_id[8] );
-   LoadBMP ( "cabecadir.bmp" );
+   LoadBMP ( "textures/cabecadir.bmp" );
 
    texture_id[ 9 ] = TEXTURA10;
    glBindTexture ( GL_TEXTURE_2D, texture_id[9] );
-   LoadBMP ( "cabecasup.bmp" );
+   LoadBMP ( "textures/cabecasup.bmp" );
 
    texture_id[ 10 ] = TEXTURA11;
    glBindTexture ( GL_TEXTURE_2D, texture_id[10] );
-   LoadBMP ( "cabecainf.bmp" );
+   LoadBMP ( "textures/cabecainf.bmp" );
 
    texture_id[ 11 ] = TEXTURA12;
    glBindTexture ( GL_TEXTURE_2D, texture_id[11] );
-   LoadBMP ( "troncocostas.bmp" );
+   LoadBMP ( "textures/troncocostas.bmp" );
 
    texture_id[ 12 ] = TEXTURA13;
    glBindTexture ( GL_TEXTURE_2D, texture_id[12] );
-   LoadBMP ( "bracosup.bmp" );
+   LoadBMP ( "textures/bracosup.bmp" );
 
    texture_id[ 13 ] = TEXTURA14;
    glBindTexture ( GL_TEXTURE_2D, texture_id[13] );
-   LoadBMP ( "bracoinf.bmp" );
+   LoadBMP ( "textures/bracoinf.bmp" );
 
    glTexGeni( GL_S , GL_TEXTURE_GEN_MODE , GL_SPHERE_MAP );
    glTexGeni( GL_T , GL_TEXTURE_GEN_MODE , GL_SPHERE_MAP );
@@ -1163,44 +1163,41 @@ int main( int argc , char *argv[] ){
 
    // mostra na console um help sobre as teclas que o programa usa e o que cada uma faz
 
-   printf("\n----------------------TRABALHO CG---------------------------");
-   printf("\nDaniela Kuinchtner, 152064\n");
-
-   printf("\n----------------------COMANDOS BÁSICOS----------------------");
-   printf("\nI i => Inicialização");
-   printf("\nR r => seleciona transformação ROTAÇÃO");
-   printf("\nT t => seleciona transformação TRANSLAÇÃO");
-   printf("\nX x => seleciona eixo X");
-   printf("\nY y => seleciona eixo Y");
-   printf("\nZ z => seleciona eixo Z");
-   printf("\n+ - => direção da transformação");
-   printf("\n\n----------------------OUTROS COMANDOS-----------------------");
-   printf("\nG g => rotaciona a câmera");
-   printf("\nD d => muda a posição da câmera no eixo X");
-   printf("\nC c => muda a posição da câmera no eixo Y");
-   printf("\nP p => muda a posição da câmera no eixo Z");
-   printf("\nE e => muda o alvo x");
-   printf("\nB b => muda o alvo y");
-   printf("\nF f => muda o alvo z");
-   printf("\nK k => muda início da profundidade de visualização");
-   printf("\nL l => muda fim da profundidade de visualizaçaõ");
-   printf("\nA a => muda o ângulo de abertura da lente");
-   printf("\nV v => mostra/esconde os eixos");
-   printf("\nQ q => caminhar (apertar intercalado com w)");
-   printf("\nW w => caminhar (apertar intercalado com q)");
-   printf("\nESC => sai do programa");
-   printf("\n\n--------------------------OBJETOS---------------------------");
-   printf("\n0 : ROBÔ");
-   printf("\n1 : CABEÇA");
-   printf("\n2 : TRONCO");
-   printf("\n3 : BRAÇO DIREITO");
-   printf("\n4 : BRAÇO ESQUERDO");
-   printf("\n5 : QUADRIL");
-   printf("\n6 : PERNA DIREITA");
-   printf("\n7 : PERNA ESQUERDA");
-   printf("\n8 : PÉ DIRETO");
-   printf("\n9 : PÉ ESQUERDO");
-   printf("\n\n--------------------------JANELA----------------------------");
+   printf("\n----------------------BASIC CONTROLS----------------------");
+   printf("\nI i => Initialization");
+   printf("\nR r => select transformation ROTATION");
+   printf("\nT t => select transformation TRANSLATION");
+   printf("\nX x => select X axis");
+   printf("\nY y => select Y axis");
+   printf("\nZ z => select Z axis");
+   printf("\n+ - => transformation direction");
+   printf("\n\n--------------------OTHER COMMANDS-----------------------");
+   printf("\nG g => rotate camera");
+   printf("\nD d => changes position of the camera on X axis");
+   printf("\nC c => changes position of the camera on Y axis");
+   printf("\nP p => changes position of the camera on Z axis");
+   printf("\nE e => change target x");
+   printf("\nB b => change target y");
+   printf("\nF f => change target z");
+   printf("\nK k => changes start of viewing depth");
+   printf("\nL l => changes end of viewing depth");
+   printf("\nA a => changes the lens opening angle");
+   printf("\nV v => show / hide axes");
+   printf("\nQ q => walking (tightening interspersed with w)");
+   printf("\nW w => walking (tightening interspersed with q)");
+   printf("\nESC => exit");
+   printf("\n\n---------------------OBJECT SELECTION----------------------");
+   printf("\n0 : STEVE");
+   printf("\n1 : HEAD");
+   printf("\n2 : BODY");
+   printf("\n3 : RIGHT ARM");
+   printf("\n4 : LEFT ARM");
+   printf("\n5 : HIP");
+   printf("\n6 : RIGHT LEG");
+   printf("\n7 : LEFT LEG");
+   printf("\n8 : RIGHT FOOT");
+   printf("\n9 : LEFT FOOT");
+   printf("\n\n--------------------------WINDOW----------------------------");
 
    // função simples que inicializa os parãmetros da câmera e da projeção a ser utilizada
    Inicializa();

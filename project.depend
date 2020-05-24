@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1590351279 source:c:\users\danie\desktop\trabalhos pro git\gitttt\minecraft-master\main.c
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	<locale.h>
+
