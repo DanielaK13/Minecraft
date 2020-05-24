@@ -1,7 +1,8 @@
 # Minecraft
 
 This is Steve from Minecraft using OpenGL in C:
-![Steve](textures/steve.PNG)(textures/steve2.PNG)
+
+![Steve](textures/steve.PNG)
 
 
 ## Getting started
