@@ -1,6 +1,6 @@
 # Minecraft
 
-This is Steve from Minecraft using OpenGL in C:
+This is Steve from Minecraft using OpenGL:
 
 ![Steve](textures/steve.PNG)
 
